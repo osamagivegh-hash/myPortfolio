@@ -5,17 +5,7 @@ import ProjectCard from '../components/ProjectCard';
 import ProjectForm from '../components/ProjectForm';
 import { Plus, Search } from 'lucide-react';
 import axios from 'axios';
-
-interface Project {
-  id: string;
-  title: string;
-  description: string;
-  technologies: string[];
-  githubLink: string;
-  liveDemoLink?: string;
-  videoFilename?: string;
-  createdAt: string;
-}
+import { Project } from '../types';
 
 export default function Projects() {
   const [projects, setProjects] = useState<Project[]>([]);

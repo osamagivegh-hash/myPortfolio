@@ -1,17 +1,7 @@
 import { motion } from 'framer-motion';
 import { Github, ExternalLink, Play, Trash2, Edit } from 'lucide-react';
 import { useState } from 'react';
-
-interface Project {
-  id: string;
-  title: string;
-  description: string;
-  technologies: string[];
-  githubLink: string;
-  liveDemoLink?: string;
-  videoFilename?: string;
-  createdAt: string;
-}
+import { Project } from '../types';
 
 interface ProjectCardProps {
   project: Project;

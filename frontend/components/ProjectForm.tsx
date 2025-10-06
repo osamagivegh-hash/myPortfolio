@@ -2,16 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { X, Upload, Plus, Minus } from 'lucide-react';
 import axios from 'axios';
-
-interface Project {
-  id?: string;
-  title: string;
-  description: string;
-  technologies: string[];
-  githubLink: string;
-  liveDemoLink: string;
-  videoFilename?: string;
-}
+import { Project, ProjectFormData } from '../types';
 
 interface ProjectFormProps {
   project?: Project;
@@ -20,7 +11,8 @@ interface ProjectFormProps {
 }
 
 const ProjectForm = ({ project, onClose, onSuccess }: ProjectFormProps) => {
-  const [formData, setFormData] = useState<Project>({
+  const [formData, setFormData] = useState<ProjectFormData>({
+    id: project?.id,
     title: project?.title || '',
     description: project?.description || '',
     technologies: project?.technologies || [],
