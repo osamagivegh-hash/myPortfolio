@@ -5,7 +5,7 @@ import axios from 'axios';
 import { Project, ProjectFormData } from '../types';
 
 interface ProjectFormProps {
-  project?: Project;
+  project?: Partial<Project>;
   onClose: () => void;
   onSuccess: () => void;
 }
