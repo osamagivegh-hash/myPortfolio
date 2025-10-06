@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-app",
+  "version": "1.0.0",
+  "description": "Personal portfolio web application with React/Next.js frontend and Node.js/Express backend",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\"",
+    "build": "cd frontend && npm run build",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "portfolio",
+    "react",
+    "nextjs",
+    "nodejs",
+    "express",
+    "tailwindcss"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
+

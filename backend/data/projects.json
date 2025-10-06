@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1759766100833",
+    "title": "CRM system ",
+    "description": "folowing up Data of customers , Sales public relation",
+    "technologies": [],
+    "githubLink": "https://github.com/osamagivegh-hash/CRM-System-",
+    "liveDemoLink": "",
+    "videoFilename": "video-1759766100658-812463221.mp4",
+    "createdAt": "2025-10-06T15:55:00.833Z"
+  },
+  {
+    "id": "1759766676758",
+    "title": "BOOKING4U ",
+    "description": "Services Booking system, add services , registration new business , business Dashboard, client Dashbord , booking services ",
+    "technologies": [],
+    "githubLink": "https://github.com/osamagivegh-hash/booking4u",
+    "liveDemoLink": "https://booking4u-integrated.onrender.com/",
+    "videoFilename": "",
+    "createdAt": "2025-10-06T16:04:36.758Z"
+  }
+]
+
