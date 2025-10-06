@@ -17,7 +17,7 @@ const ProjectForm = ({ project, onClose, onSuccess }: ProjectFormProps) => {
     description: project?.description || '',
     technologies: project?.technologies || [],
     githubLink: project?.githubLink || '',
-    liveDemoLink: project?.liveDemoLink || '',
+    liveDemoLink: project?.liveDemoLink,
     videoFilename: project?.videoFilename || '',
   });
 

@@ -15,6 +15,6 @@ export interface ProjectFormData {
   description: string;
   technologies: string[];
   githubLink: string;
-  liveDemoLink: string;
+  liveDemoLink?: string;
   videoFilename?: string;
 }
